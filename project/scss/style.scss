@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@import "reset";
+@import "variables";
+@import "fonts";
+@import "mixins";
+@import "core";
+
+@import "scss/blocks/info.scss";
+@import "scss/blocks/nav.scss";
+@import "scss/blocks/slider.scss";
+@import "scss/blocks/window-zayavka.scss";
+@import "scss/blocks/after.scss";
+@import "scss/blocks/about.scss";
+@import "scss/blocks/offers.scss";
+@import "scss/blocks/service.scss";
+@import "scss/blocks/faq.scss";
+@import "scss/blocks/call.scss";
+@import "scss/blocks/bottom.scss";

@@ -1,0 +1,29 @@
+.after{
+
+	position:relative;
+	// z-index: -100;
+	// width:100%;
+	min-width:1000px;
+	margin: 1200px auto 0 auto;
+	// margin: 0px auto 0 auto;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	// margin:0 auto;
+	// left:15%;
+	// margin: 0 auto;
+	transition: all 500ms ease;
+}
+
+@media (max-width: 1000px){
+	.after{
+		min-width: 680px;
+	}
+}
+
+@media (max-width:680px) {
+	.after{
+		margin-top: 1200px;
+		min-width: 320px;
+	}
+}
